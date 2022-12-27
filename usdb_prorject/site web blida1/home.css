@@ -1,0 +1,213 @@
+*{
+    font-family: 'Poppins', sans-serif;
+    margin :0;
+    padding:0;
+    box-sizing: border-box;
+    scroll-behavior:smooth;
+}
+
+header{
+    background-color: #f0f0f0 ;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 30px;
+
+}
+header img{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    
+}
+.logo{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 1000;
+    font-size: 18px;
+    
+}
+.navigation a{
+     text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 15px;
+    padding-left: 30px;
+
+}
+.navigation a:hover{
+    color:blue;
+}
+/*fin de la partie header*/
+/*debut de prtie main*/
+
+.main{ 
+    padding: 100px  50px;
+    width: 100%;  
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(photos/info.jpg) no-repeat;
+    background-size: cover;
+    background-attachment: fixed;   
+    background-position:center;&²
+}
+.main h2{
+    color:#fff;
+    font-size : 25px;
+    font-weight: 500;
+
+}
+.main h2 span{
+    display: inline-block;
+    margin: top 30px; 
+    color:#3a6cf4;
+    font-size: 50px;
+}
+.main h3{
+    color: #fff;
+    font-size: 30px;
+    font-weight:700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom:30px ;
+}
+.main-button{
+    color: #fff;
+    background-color: #3a6cf4;
+    text-decoration:none ;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;  
+}
+.main-button:hover{
+    background-color: #0a49f6;
+    transform: scale(1.1);
+}
+
+/*debut section2*/
+.title{
+    display: flex;
+    justify-content: center; 
+    color: #3a6cf4;    
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 30px; 
+}
+.content {
+    padding: 30px  50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.card {
+    background-color: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1/15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 50px;
+}
+
+.card:hover{
+   transform: scale(1.1) ;
+   transition: 00.7s ease;
+
+}
+.icon{
+    color:#0a49f4;
+    font-size: 8em;
+    text-align:center;
+}
+.info{
+    text-align: center;
+}
+.info h3{
+    color:#0a49f4;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin: 10px;
+
+}
+
+
+/*la partie actualite*/
+.a{
+    background-color: #000016;
+    padding: 30px  50px;
+}
+.a .content{
+    margin-top: 30px;
+}
+.b-card{
+    background-color:#fff;
+    border: 1px solid #fff ;
+    min-height: 14em;
+    width: 23em;
+    overflow: hidden;
+    border-radius: 10px;
+    margin: 20px;
+    transition: 0.7s ease;
+}
+.b-card:hover{
+    transform: scale(1.1);
+}
+.b-card:hover .b-image{
+    opacity: 0.9;
+}
+
+.b-image img{
+    width: 100%;
+}
+
+.b-info{
+    padding: 1em;
+}
+.b-category{
+    font-size: 0.8em;
+    color: #000;
+}
+.b-title{
+    display: flex;
+    justify-content: space-between;
+    text-transform: 800;
+    margin-top: 10px;
+
+}
+.more-details{
+    text-decoration: none;
+    color: #601cfc;
+}
+
+/*debut de partie footer*/
+.footer{
+    background-color:rgb(46, 78, 101);
+    color: #fff;
+    padding: 1em;
+    display: flex;
+    justify-content: space-between;
+}
+.footer-title{
+   font-size: 1.3em;
+   font-weight: 600;
+}
+.footer-title span {
+    color: blue;
+}
+.footer .social-medea a{
+    color: wheat;
+    font-size: 1.3em;
+    padding: 0 12px 0 0;
+    padding-right: 30px;
+}
